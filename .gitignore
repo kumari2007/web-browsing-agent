@@ -1,0 +1,57 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Runtime data and local storage
+*.sqlite
+*.sqlite3
+*.db
+logs/
+screenshots/
+
+# Generated data files (keep local by default)
+data/*
+!data/.gitkeep
+
+# Streamlit
+.streamlit/*
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor and tooling
+.vscode/
+.idea/
+
+# Model and large generated files
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+.env
+
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+logs/
